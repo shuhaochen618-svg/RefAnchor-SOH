@@ -13,7 +13,7 @@ by 36 % on Sandia (56 cells), 9 % on ISU-ILCC (142 cells; the confidence interva
 The claim of the paper covers windows of 0.2 V and wider. All data are laboratory cycling, and transfer across datasets
 was not tested.
 
-![Charging curves at falling SOH, and a window aligned to the cell's early curve](docs/anchor.png)
+![Overview of RefAnchor-SOH: a partial charging window and the cell's own early reference, two-parameter alignment and residual learning, and the main results](docs/framework.png)
 
 ## Layout
 
@@ -32,6 +32,7 @@ was not tested.
 | `scripts/aggregate.py` | main table and comparison with the strongest control |
 | `splits/cells.csv` | the cells of the paper: dataset, condition group, chemistry, fold, windows |
 | `splits/cache_checksums.json` | checksums of the window caches of the paper |
+| `docs/framework.png` | overview figure (Fig. 1 of the paper) |
 
 ## Installation
 
