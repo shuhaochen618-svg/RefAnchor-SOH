@@ -1,0 +1,5 @@
+# Nearby versions should work. torch is needed only for scripts/run_neural.py.
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+torch>=2.0
